@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Hacker Simulator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="desktop">
+        <!-- Wallpaper -->
+        <div id="wallpaper"></div>
+        
+        <!-- Desktop Icons -->
+        <div class="desktop-icon" data-app="terminal" style="top: 50px; left: 50px;">
+            <div class="icon"><i class="fa-solid fa-terminal"></i></div>
+            <div class="icon-label">Terminal</div>
+        </div>
+        
+        <div class="desktop-icon" data-app="file-manager" style="top: 50px; left: 150px;">
+            <div class="icon"><i class="fa-solid fa-folder-open"></i></div>
+            <div class="icon-label">Files</div>
+        </div>
+        
+        <div class="desktop-icon" data-app="network-monitor" style="top: 150px; left: 50px;">
+            <div class="icon"><i class="fa-solid fa-globe"></i></div>
+            <div class="icon-label">Network</div>
+        </div>
+        
+        <div class="desktop-icon" data-app="system-monitor" style="top: 150px; left: 150px;">
+            <div class="icon"><i class="fa-solid fa-gear"></i></div>
+            <div class="icon-label">System</div>
+        </div>
+        
+        <div class="desktop-icon" data-app="code-editor" style="top: 250px; left: 50px;">
+            <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <div class="icon-label">Code</div>
+        </div>
+        
+        <div class="desktop-icon" data-app="password-cracker" style="top: 250px; left: 150px;">
+            <div class="icon"><i class="fa-solid fa-key"></i></div>
+            <div class="icon-label">Password Cracker</div>
+        </div>
+        
+        <!-- Taskbar -->
+        <div id="taskbar">
+            <div id="start-menu">
+                <div id="start-button">λ Kali</div>
+            </div>
+            <div id="taskbar-apps"></div>
+            <div id="system-tray">
+                <span id="clock"></span>
+                <span class="tray-icon"><i class="fa-solid fa-volume-xmark"></i></span>
+                <span class="tray-icon"><i class="fa-solid fa-signal"></i></span>
+                <span class="tray-icon"><i class="fa-solid fa-battery-full"></i></span>
+            </div>
+        </div>
+        
+        <!-- Windows Container -->
+        <div id="windows-container"></div>
+    </div>
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>
