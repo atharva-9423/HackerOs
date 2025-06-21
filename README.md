@@ -1,6 +1,6 @@
 # HackerOs
 
-[Link](https://atharva-9423.github.io/HackerOs/)
+https://atharva-9423.github.io/HackerOs/
 
 
 ## Basic Commands:
