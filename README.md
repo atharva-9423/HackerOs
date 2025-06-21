@@ -1,27 +1,80 @@
-# HTML, CSS, JS (Auto Refresh)
+# HackerOs
 
-This template is a starter for building a website with HTML, CSS and JS, powered by [Vite](https://vitejs.dev/). HTML provides the basic structure, CSS controls formatting, and JavaScript controls the behavior of different elements.
+[Link](https://atharva-9423.github.io/HackerOs/)
 
-Hit run to see this project in action. It will auto-refresh as you edit the HTML, CSS and JS files.
 
-## Disable Auto Refresh
+## Basic Commands:
 
-If you find the auto refresh getting in your way, go to [vite.config.js](./vite.config.js) and update it set `hmr` to false to disable hot module reloading (HMR). The full config will look like this:
+- ls - List directory contents
 
-```js
-export default defineConfig({
-  plugins: [],
-  server: {
-    host: '0.0.0.0',
-    hmr: false, // Change this line to `false` disable auto-refreshing.
-  }
-})
-```
+- whoami - Display current user
 
-## Packages
+- uname - System information
 
-Because this template uses Vite to build your code, you can add install and use npm packages. Simple open the Packager tool to search and manage your packages.
+- ps - Show running processes
 
-## Learn More
+- netstat - Network connections
 
-Check out [the vite docs](https://vitejs.dev) to learn more about configuring a frontend application.
+- clear - Clear terminal
+
+- pwd - Print working directory
+
+- date - Show current date and time
+
+- id - Show user and group IDs
+
+## Password Cracking:
+
+- john [hashfile] - John the Ripper password cracker
+
+- hashcat [hashes] - Advanced password recovery
+
+- hydra [target] [service] - Brute force authentication
+
+## Network Reconnaissance:
+
+- nmap [target] - Network mapping
+
+- ping - Check connectivity
+
+- whois [domain] - Domain information lookup
+
+## Web Application Testing:
+
+- sqlmap [url] - SQL injection testing
+- burpsuite - Web application security testing
+- beef - Browser exploitation framework
+
+## Wireless Security:
+
+- aircrack-ng [capfile] - WEP/WPA/WPA2 cracking
+- airodump-ng - Wireless network detection
+- reaver - WPS attack tool
+
+## Exploitation Frameworks:
+
+- msfconsole - Metasploit framework
+
+- msfvenom - Payload generator
+
+- searchsploit - Exploit database search
+
+- empire - Post-exploitation framework
+
+## Social Engineering:
+
+- setoolkit - Social engineering toolkit
+
+- gophish - Phishing framework
+
+## Fun Commands:
+
+- hack - Initiate hacking sequence
+
+- matrix - Enter the matrix
+
+## Custom Simulation Commands:
+
+- penetration-test - Automated penetration testing
+
+- exploit - Custom exploit framework
